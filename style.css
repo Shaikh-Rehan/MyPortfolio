@@ -1,0 +1,8 @@
+#myDiv{
+    border: 2px solid brown;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

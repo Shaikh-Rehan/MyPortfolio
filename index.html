@@ -1,0 +1,42 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pure html website</title>
+  <style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+     #h2tag{
+        color: aqua;
+        text-align: center;
+     }
+     .h3tag{
+        color: royalblue;
+        text-align: end;
+     }
+  </style>
+  <link rel="stylesheet" href="./style.css">
+  <script>
+    function changeColor(){
+        let ele = document.getElementById('myTitle')
+        ele.style.color = 'blue'
+    }
+  </script>
+</head>
+<body>
+    <header>
+        <h1 id="myTitle" style="color: red;">My first Html website</h1>
+        <h2 id="h2tag" >My first Html website</h2>
+        <h3 class="h3tag" >My h3 tag</h3>
+        <h3 class="h3tag" >My h3 tag</h3>
+        <h3 class="h3tag" >My h3 tag</h3>
+        <div id="myDiv">hello city</div>
+        <button onclick="changeColor()">change color</button>
+    </header>
+
+</body>
+</html>
